@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example",
+    "module": "uberentityservice",
+    "version": "0.0.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "uberentityservice-0.0.2-SNAPSHOT-plain.jar",
+          "url": "uberentityservice-0.0.2-SNAPSHOT-plain.jar",
+          "size": 11279,
+          "sha512": "c685180668c83faaa99627ab90096a64a2aec1a2f4ebe5292f414474175432a9ef9c1d943d9f3c2dfa32746d50416930f2635233cfe2ea102ef6a77c9f7d8770",
+          "sha256": "8d2070ec7f2a147a2abc5aa83d7fa3f62087f8d3a54e53fed2666f2028fc101d",
+          "sha1": "18a1c7b6671234ef6256639e53d1e66e14f3e300",
+          "md5": "e45f7fe3a167f9bb42701dbbcfe56a52"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-jpa"
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.15.3"
+          }
+        },
+        {
+          "group": "com.mysql",
+          "module": "mysql-connector-j"
+        }
+      ],
+      "files": [
+        {
+          "name": "uberentityservice-0.0.2-SNAPSHOT-plain.jar",
+          "url": "uberentityservice-0.0.2-SNAPSHOT-plain.jar",
+          "size": 11279,
+          "sha512": "c685180668c83faaa99627ab90096a64a2aec1a2f4ebe5292f414474175432a9ef9c1d943d9f3c2dfa32746d50416930f2635233cfe2ea102ef6a77c9f7d8770",
+          "sha256": "8d2070ec7f2a147a2abc5aa83d7fa3f62087f8d3a54e53fed2666f2028fc101d",
+          "sha1": "18a1c7b6671234ef6256639e53d1e66e14f3e300",
+          "md5": "e45f7fe3a167f9bb42701dbbcfe56a52"
+        }
+      ]
+    }
+  ]
+}
