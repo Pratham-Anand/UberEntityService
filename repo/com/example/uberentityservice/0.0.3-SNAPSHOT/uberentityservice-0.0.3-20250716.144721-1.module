@@ -3,7 +3,7 @@
   "component": {
     "group": "com.example",
     "module": "uberentityservice",
-    "version": "0.0.2-SNAPSHOT",
+    "version": "0.0.3-SNAPSHOT",
     "attributes": {
       "org.gradle.status": "integration"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "uberentityservice-0.0.2-SNAPSHOT-plain.jar",
-          "url": "uberentityservice-0.0.2-SNAPSHOT-plain.jar",
-          "size": 11279,
-          "sha512": "c685180668c83faaa99627ab90096a64a2aec1a2f4ebe5292f414474175432a9ef9c1d943d9f3c2dfa32746d50416930f2635233cfe2ea102ef6a77c9f7d8770",
-          "sha256": "8d2070ec7f2a147a2abc5aa83d7fa3f62087f8d3a54e53fed2666f2028fc101d",
-          "sha1": "18a1c7b6671234ef6256639e53d1e66e14f3e300",
-          "md5": "e45f7fe3a167f9bb42701dbbcfe56a52"
+          "name": "uberentityservice-0.0.3-SNAPSHOT-plain.jar",
+          "url": "uberentityservice-0.0.3-SNAPSHOT-plain.jar",
+          "size": 28778,
+          "sha512": "e78b529802d23b31fea667f481d75ee2a3841a88a614ccff5882b61d505a3908513c72dd3b0c1b836aab39deb6cdfb45e12062df262fa700a8d9af4cd66e083c",
+          "sha256": "3bcf15f54646fdcb9ea44edf44d8a4adcf040742df7056fb640d2c6df364be2c",
+          "sha1": "04518b34d74d5832d33b45f26e1ace6cb15cd008",
+          "md5": "39122dbf92bcd37ff8cd8f993dbb8524"
         }
       ]
     },
@@ -57,19 +57,26 @@
           }
         },
         {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation",
+          "version": {
+            "requires": "3.2.5"
+          }
+        },
+        {
           "group": "com.mysql",
           "module": "mysql-connector-j"
         }
       ],
       "files": [
         {
-          "name": "uberentityservice-0.0.2-SNAPSHOT-plain.jar",
-          "url": "uberentityservice-0.0.2-SNAPSHOT-plain.jar",
-          "size": 11279,
-          "sha512": "c685180668c83faaa99627ab90096a64a2aec1a2f4ebe5292f414474175432a9ef9c1d943d9f3c2dfa32746d50416930f2635233cfe2ea102ef6a77c9f7d8770",
-          "sha256": "8d2070ec7f2a147a2abc5aa83d7fa3f62087f8d3a54e53fed2666f2028fc101d",
-          "sha1": "18a1c7b6671234ef6256639e53d1e66e14f3e300",
-          "md5": "e45f7fe3a167f9bb42701dbbcfe56a52"
+          "name": "uberentityservice-0.0.3-SNAPSHOT-plain.jar",
+          "url": "uberentityservice-0.0.3-SNAPSHOT-plain.jar",
+          "size": 28778,
+          "sha512": "e78b529802d23b31fea667f481d75ee2a3841a88a614ccff5882b61d505a3908513c72dd3b0c1b836aab39deb6cdfb45e12062df262fa700a8d9af4cd66e083c",
+          "sha256": "3bcf15f54646fdcb9ea44edf44d8a4adcf040742df7056fb640d2c6df364be2c",
+          "sha1": "04518b34d74d5832d33b45f26e1ace6cb15cd008",
+          "md5": "39122dbf92bcd37ff8cd8f993dbb8524"
         }
       ]
     }

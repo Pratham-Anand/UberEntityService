@@ -13,6 +13,9 @@ import java.util.Date;
 @Entity
 //@JsonIgnoreProperties({"hibernateLazyInitializer", "handler" , "driver","passenger","createdAt"})
 
+//@Table(indexes = {
+//        @Index(columnList = "driver_id")
+//})
 public class Booking extends com.example.UberEntityService.models.BaseModel {
 
 
@@ -34,5 +37,11 @@ public class Booking extends com.example.UberEntityService.models.BaseModel {
 
     @ManyToOne(fetch = FetchType.LAZY)
     private Passenger passenger;
+
+    @OneToOne
+    private  ExactLocation startLocation;
+
+    @OneToOne
+    private ExactLocation endLocation;
 
 }

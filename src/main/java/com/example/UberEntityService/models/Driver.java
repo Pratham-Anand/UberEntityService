@@ -46,7 +46,9 @@ public class Driver extends com.example.UberEntityService.models.BaseModel {
     private String activeCity;
     @DecimalMin(value="0.00",message="Rating must be greater than or equal to 0.00")
     @DecimalMax(value="5.00",message="Rating must be less than or equal to 5.00")
-    private double rating;
+    private Double rating;
+
+    private boolean isAvailable;
 
 
     @OneToMany(mappedBy = "driver",fetch = FetchType.LAZY)

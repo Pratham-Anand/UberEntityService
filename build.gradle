@@ -7,7 +7,7 @@ plugins {
 }
 
 group = 'com.example'
-version = '0.0.3-SNAPSHOT'
+version = '0.0.4-SNAPSHOT'
 
 java {
 	toolchain {
@@ -52,7 +52,7 @@ configurations {
 				from components.java
 				groupId = 'com.example'
 				artifactId = 'uberentityservice'  // ✅ match this in consumer dependency
-				version = '0.0.3-SNAPSHOT'
+				version = '0.0.4-SNAPSHOT'
 			}
 		}
 
